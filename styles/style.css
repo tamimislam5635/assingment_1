@@ -129,3 +129,12 @@ header img {
   border-radius: 5px;
   cursor: pointer;
 }
+/* ===== Footer Section ===== */
+footer {
+  background: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+

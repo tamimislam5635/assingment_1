@@ -79,3 +79,21 @@ header img {
   margin-bottom: 10px;
 }
 
+/* ===== Newsletter Section ===== */
+.newsletter input[type="email"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #2e8b57; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

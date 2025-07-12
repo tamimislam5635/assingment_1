@@ -110,4 +110,22 @@ header img {
   color: gold;
   margin-bottom: 5px;
 }
+/* ===== Contact Section ===== */
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
 
+.contact button {
+  padding: 10px 20px;
+  background: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+/* ===== Body Styling ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #eafaf1; 
+}
+
+/* ===== Header (Logo + Title) ===== */
+header {
+  background-color: #2e8b57; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+/* ===== Banner Section ===== */
+.banner {
+  background: url('your-banner-bg.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* Signup Button in Banner */
+.signup-btn {
+  background: #32cd32; /* lime green */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* ===== Common Section Layout ===== */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== Products Section ===== */
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+  width: 30%;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
